@@ -12,7 +12,7 @@ label: gpt
 label-id: DB708ACF-2E04-8DE2-BAFE-30C9B26444C5
 unit: sectors
 first-lba: 34
-last-lba: 350208
+last-lba: 481280
 sector-size: 512
 
 gpt.img1 : start=        4096, size=           2, type=57B90A16-22C9-E33B-8F5D-0E81686A68CB, uuid=89BEF928-6B3F-432E-970E-46926F6BD579, name="fsc"
