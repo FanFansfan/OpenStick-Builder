@@ -5,7 +5,7 @@ TMPDIR=$(mktemp -d)
 mkdir -p files
 
 # create GPT
-truncate -s 179323904 ${TMPDIR}/gpt.img
+truncate -s 313541632 ${TMPDIR}/gpt.img
 
 cat << EOF | sfdisk ${TMPDIR}/gpt.img
 label: gpt
